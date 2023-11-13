@@ -8,6 +8,9 @@ lazy val root = (project in file("."))
     name := "star-wars-exercise",
     libraryDependencies ++= Seq(
       "dev.zio" %% "zio" % "2.0.19",
+      "com.lihaoyi" %% "requests" % "0.8.0",
+      "com.typesafe.play" %% "play-json" % "2.9.4",
+      "org.scalatest" %% "scalatest" % "3.2.17" % Test,
       "dev.zio" %% "zio-test" % "2.0.19" % Test
     ),
     testFrameworks += new TestFramework("zio.test.sbt.ZTestFramework")

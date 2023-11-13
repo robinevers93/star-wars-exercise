@@ -8,9 +8,9 @@ object StarWars {
    *         Retrieving all people in the Star Wars universe can be done by calling the following endpoint:
    *         https://swapi.dev/api/people
    *
-   *         Retrieving a spaceship can be done by calling the following endpoint:
+   *         Retrieving a starship can be done by calling the following endpoint:
    *         https://swapi.dev/api/starships/{id}
    *         where {id} is the id of the spaceship
    */
-  def fastestStarship(name: String): String = ???
+  def fastestStarship(name: String): String = "Not Implemented"
 }
